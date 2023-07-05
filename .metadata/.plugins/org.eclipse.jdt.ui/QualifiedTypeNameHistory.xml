@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="com.jsp.model.Ex10_1_Model"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.jsp.model.Ex10_2_Model"/>
+    <fullyQualifiedTypeName name="com.servlet.model.Command"/>
+    <fullyQualifiedTypeName name="com.jsp.model.Ex10_3_Model"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+</qualifiedTypeNameHistroy>

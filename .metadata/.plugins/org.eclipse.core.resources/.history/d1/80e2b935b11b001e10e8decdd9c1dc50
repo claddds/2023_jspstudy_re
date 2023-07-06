@@ -1,0 +1,16 @@
+package com.guestbook.model;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class ListCommand implements Command{
+	@Override
+	public String exec(HttpServletRequest request, HttpServletResponse response) {
+		// 일처리
+		
+		// 저장
+		
+		// 결과페이이지
+		return "guestbook/list.jsp";
+	}
+}

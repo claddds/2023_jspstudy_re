@@ -16,7 +16,7 @@
     pageContext.setAttribute("name", request.getParameter("name"));
     pageContext.setAttribute("age", request.getParameter("age"));
     pageContext.setAttribute("gender", request.getParameter("gender"));
-    pageContext.setAttribute("hobby", request.getParameter("hobby"));
+    pageContext.setAttribute("hobby", request.getParameterValues("hobby"));
 %>    
 <!DOCTYPE html>
 <html>
@@ -46,17 +46,8 @@
 			<li>이름 : ${name}</li>
 			<li>나이 : ${age}</li>
 			<li>성별 : ${gender}</li>
-			<li>취미 :${hobby[0]} ${hobby[1]} ${hobby[2]} ${hobby[3]}
-			</li>
+			<li>취미 : ${hobby[0]} ${hobby[1]} ${hobby[2]} ${hobby[3]}	</li>
 		</ul>
 	</h3>
 </body>
 </html>
-
-
-
-
-
-
-
-

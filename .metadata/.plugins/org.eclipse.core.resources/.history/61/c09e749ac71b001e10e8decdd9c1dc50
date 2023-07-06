@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="guestbook">
+	<!-- 전체목록가져오기 -->
+	<select id="list" resultType="com.guestbook.db.VO">
+		select * from guestbook order by idx desc
+	</select>
+	
+	<!-- 방명록 쓰기 -->
+	<insert id="insert" parameterType="com.guestbook.db.VO">
+		insert into guestbook(idx, name, subject, content, email, pwd, resgdate)
+		values(guestbook_seq.nextval, #{name}, #{subject}, #{content}, #{email}, #{pwd}, sysdate)
+	</insert>
+</mapper>

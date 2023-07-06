@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="com.jsp.model.Ex10_1_Model"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.jsp.model.Ex10_2_Model"/>
     <fullyQualifiedTypeName name="com.servlet.model.Command"/>
     <fullyQualifiedTypeName name="com.jsp.model.Ex10_3_Model"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="org.apache.catalina.filters.ExpiresFilter.XHttpServletResponse"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+    <fullyQualifiedTypeName name="com.guestbook.model.ListCommand"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactory"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.io.Resources"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactoryBuilder"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.guestbook.model.WriteCommand"/>
+    <fullyQualifiedTypeName name="com.guestbook.model.WriteOkCommand"/>
+    <fullyQualifiedTypeName name="com.guestbook.model.Command"/>
+    <fullyQualifiedTypeName name="com.guestbook.db.VO"/>
+    <fullyQualifiedTypeName name="com.guestbook.db.DAO"/>
+    <fullyQualifiedTypeName name="com.guestbook.model.OneListCommand"/>
 </qualifiedTypeNameHistroy>

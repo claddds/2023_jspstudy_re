@@ -1,0 +1,5 @@
+
+7월 06, 2023 11:32:33.358 NEW SESSION
+7월 06, 2023 11:32:33.358 [5772:15096:0706/113233.355:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+7월 06, 2023 11:52:00.565 [5772:6956:0706/115200.565:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
+7월 06, 2023 16:43:14.04 [5772:6956:0706/164314.004:ERROR:device_event_log_impl.cc(222)] [16:43:14.004] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
